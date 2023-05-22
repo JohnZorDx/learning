@@ -1,0 +1,26 @@
+/* * {
+  border: 2px solid;
+} Utilizando apenas a estrela ela aplica a estilização em todos os elementos*/
+
+/* li a {
+  color: red;
+} dessa forma todos as tag a dentro de li vai receber essa estilização idependente se tiver div dentro ou outros elementos*/
+
+/* li>a {
+  color: red;
+} (seletor de descendencia) dessa forma so vai aplicar a estilização a decendentes diretos todos a que for descedente direto de li vai receber a estilização*/
+
+/* (seletor adjacente: esse seletor faz com que todo elemento que vem em sequencia receba a estilização, por exemplo se tiver no html um h1 e um h4 em seguida vai receber a estilização, mas se tiver algo entro os dois por exemplo um p ele nao funcionara)
+h1+h4 {
+  border: 4px dashed;
+} */
+
+/* (seletor de atributo: ele busca uma tributo igual e faz a estilização)
+a[href='/recibo'] {
+  color: orange;
+} */
+
+/* (pseudoclasse ela permite selecionar os elementos de forma especifica, esse debaixo coloca a estilização do no segundo OBS: se colocar odd vai so nos numeros impars)
+li:nth-of-type(2) {
+  color: purple;
+} */

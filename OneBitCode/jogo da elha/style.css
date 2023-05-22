@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  [data-cell] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #444;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  [data-cell]:hover {
+    background-color: #ddd;
+  }
+  
+  .x {
+    color: #f44336;
+  }
+  
+  .o {
+    color: #2196f3;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  #winningMessage {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  #restartButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #restartButton:hover {
+    background-color: #388e3c;
+  }
+  
+  .x::before {
+    content: "X";
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  

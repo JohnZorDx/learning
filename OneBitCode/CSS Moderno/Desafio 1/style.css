@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalho {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabeçalho__logo {
+    width: 50px;
+    height: 50px;
+    padding: 10px 0;
+}
+
+.cabeçalho__logo-grande {
+    width: 100px;
+    height: 50px;
+}
+
+.cabeçalho__nav-lista {
+    display: flex;
+    gap: 1em;
+}
+
+.cabeçalho__nav-item {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.cabeçalho__nav-itemA {
+    color: white;
+    text-decoration: none;
+}
+
+.cabeçalho__nav-item:hover {
+    background-color: red;
+    transition: 1s;
+}

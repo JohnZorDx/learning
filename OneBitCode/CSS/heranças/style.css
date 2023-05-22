@@ -1,0 +1,16 @@
+/* div {
+  color: blue;
+}
+
+div ul li {
+  color: red;
+} */
+
+/* div {
+  border: 2px solid;
+}
+
+serve para herdar a mesma bordar do pai.
+div ul {
+  border: inherit;
+} */
