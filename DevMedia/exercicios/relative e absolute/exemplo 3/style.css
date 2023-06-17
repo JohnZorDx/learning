@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+}
+p {
+    width: 430px;
+    font-family: cursive;
+    font-size: 34px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    position: absolute;
+    left: 155px;
+    top: 150px;
+}
