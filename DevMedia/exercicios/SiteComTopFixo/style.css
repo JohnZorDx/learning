@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.topo{
+    background-color: #000000;
+    border-bottom: 1px solid darkgoldenrod;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+     
+}
+.topo h1{
+    color: darkgoldenrod;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.topo ul{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 30px;  
+}
+.topo ul li a{
+    color: darkgoldenrod;
+    font-size: 30px;
+    padding: 0 10px;
+    text-decoration: underline;
+    margin: 0 5px;
+}
+.banner{
+    width: 100%;
+}
+.conteudo__subtitulo, 
+.conteudo__consultores{
+    text-align: center;
+    margin: 40px;
+}
+.paragraph{
+    margin: 20px;
+    font-size: 20px;
+}
+.paragraph span{
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+.conteudo__subtitulo h2, 
+.consultores,
+.ondeEstamos{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.segunda__imagem, .img__consultores{
+    width: 450px;
+    height: 253px;
+}
+.conteudo__ondeEstamos{
+    width: 100%;
+    text-align: center;
+}
+.rodape{
+    background-color: #000000;
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10px;
+}

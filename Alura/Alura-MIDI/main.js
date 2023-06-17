@@ -11,5 +11,5 @@ function tocaSomPom(){
     document.querySelector("#som_tecla_pom").play()
 }
 
-documento.querySelectorAll(".tecla").onclick = tocaSomPom
+documento.querySelectorAll(".tecla_pom").onclick = tocaSomPom
 

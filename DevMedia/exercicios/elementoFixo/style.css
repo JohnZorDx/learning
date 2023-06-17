@@ -1,0 +1,18 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+    margin-bottom: 10px;
+}
+/* .div_fixa{
+    position: fixed;
+    border: 2px solid red;
+    right: 32px;
+    bottom: 20px;
+} */
+.div_fixa{
+    position: fixed;
+    border: 2px solid red;
+    top: 450px;
+    left: 300px;
+}
