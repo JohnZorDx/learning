@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.limite-largura{
+    width: 100%;
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 1024px;
+}
+
+.cabecalho-topo, .rodape{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    padding: 16px 0;
+    background-color: green;
+    text-align: center;
+    width: 100%;
+}
+
+.area{
+    width: calc(100% - 115px);
+    margin: 20px 35px;
+}
+
+.main-conteudo h2, .main-gallery h2{
+    padding-bottom: 10px;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.main-conteudo img{
+    
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.main-conteudo p{
+    font-size: 17px;
+    margin-bottom: 15px;
+    font-family: Arial;
+    text-align: justify;
+    width: 100%;
+}
+
+.main-gallery{
+    margin: 0 auto;
+    width: calc(100% - 31.5px);
+    margin-bottom: 20px;
+}
+
+.gallery-photos{
+    display: flex;
+}
+.gallery-photos img{
+    width: calc((100% / 3) - 31.5px );
+    margin: 0 1.5px;
+}
