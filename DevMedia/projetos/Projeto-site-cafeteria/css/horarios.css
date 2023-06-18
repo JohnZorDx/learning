@@ -1,0 +1,19 @@
+.lista li { /* itens da lista */
+    position: relative;
+}
+
+.lista li div { /* tarja */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 50%;
+    background-color: #acacac
+}
+
+.lista li p { /* parágrafos */
+    position: absolute;
+    top: 0;
+    right: 0;
+}
